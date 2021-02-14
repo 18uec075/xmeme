@@ -1,0 +1,44 @@
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid black;
+    background: white;
+    padding: 10px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+}
+
+.labels input{
+    flex:1;
+border-radius: 10px;
+padding: 15px;
+outline-width: 0ch;
+
+}
+
+.submitContainer{
+    display: flex;
+    flex-direction: row;
+
+}
+.submit_button{
+    background-color: rgb(130, 132, 238);
+    color: white
+}
